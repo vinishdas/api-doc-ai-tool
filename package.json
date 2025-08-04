@@ -1,0 +1,30 @@
+{
+  "name": "api-doc-ai-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "api-doc-ai-tool": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "documentation",
+    "express",
+    "ai",
+    "llm"
+  ],
+  "author": "vinish",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "acorn": "^8.15.0",
+    "acorn-walk": "^8.3.4",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "openai": "^5.11.0"
+  }
+}

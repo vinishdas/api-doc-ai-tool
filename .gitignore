@@ -1,0 +1,15 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Build output
+dist/
+
+# Generated documentation (optional, but good practice)
+API.md
+
+# Logs
+*.log
